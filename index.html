@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+		<title>Sway says "Hi!"</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="favicon.png">
+
+	<!-- update fonts -->
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+	<!-- probably delete -->
+		<!-- FontAwesome -->
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+
+		<!-- link to css reset -->
+		<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+
+		<!-- link to animate css file -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+		<!-- Bootstrap -->
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+	
+	<!-- Bulma -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+	<!-- custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>	
+<!-- WELCOME SECTION -->
+	<section id="welcome" class="hero is-fullheight has-text-centered">
+		<div id="welcome-nav" class="hero-head">
+			<!-- <header class="navbar"> -->
+			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+				<div class="container">
+					<div class="navbar-brand">	
+			<!-- brand here -->
+						<a class="navbar-item" href="#welcome">
+							<!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+							 <span id="navbrand" class="has-text-primary has-text-weight-bold">JOSUE RIVERA</span> 
+						</a>
+			<!-- hambuger button -->
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
+			<!-- welcome section navigation bar -->
+					<div id="navbarBasicExample" class="navbar-menu">
+						<div class="navbar-end">
+
+							<a class="navbar-item" href="#about-me">About Me</a>
+			
+							<div class="navbar-item has-dropdown is-hoverable">
+								<a class="navbar-link">
+								My Projects
+								</a>
+						
+								<div class="navbar-dropdown">
+									<a class="navbar-item" href="#projects">
+										Gallery
+									</a>
+									<hr class="navbar-divider">
+									<a class="navbar-item">
+									Digital Drumkt
+									</a>
+									<a class="navbar-item">
+									Faithful Quiz
+									</a>
+									<a class="navbar-item">
+									Pusheen Zodiac
+									</a>
+								</div>
+							</div>
+
+							<a class="navbar-item" href="#footer">Contact Info</a>
+	
+							<span class="navbar-item">
+								<a class="button is-primary is-inverted">
+									<span class="icon">
+										<i class="fas fa-arrow-circle-down"></i>
+									</span>
+									<span>My Resume</span>
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div id="welcome-hero" class="hero-body">
+			<div id="welcome-hero-container" class="container">
+				<h1 class="title is-size-1 has-text-primary">
+				Hi, my name is Josue &#x1F433.
+				</h1>
+				<hr>
+				<h2 class="subtitle is-size-3 has-text-primary">
+				Web Deverloper from the San Francisco Bay Area.<i class="fas fa-angle-down welcome-down"></i>
+				</h2>
+			</div>
+		</div>
+	</section>
+
+<!-- NAVBAR	 -->
+	<div id="sticky-navbar" class="">
+		<!-- <header class="navbar"> -->
+		<nav class="navbar is-dark has-text-white is-fixed" role="navigation" aria-label="main navigation">
+		<!-- <nav class="navbar" role="navigation" aria-label="main navigation"> -->
+			<div class="container">
+				<div class="navbar-brand">	
+			<!-- brand here -->
+					<a class="navbar-item" href="#welcome">
+					<!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+						<span class="has-text-white has-text-weight-bold">JOSUE RIVERA</span> 
+					</a>
+					
+					<!-- hambuger button -->
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+					
+				</div>
+			<!-- navbar items -->
+				<div id="navbarBasicExample" class="navbar-menu">
+					<div class="navbar-end">
+						<a class="navbar-item" href="#about-me">About Me</a>
+
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a class="navbar-link">
+							My Projects
+							</a>
+					
+							<div class="navbar-dropdown">
+								<a class="navbar-item" href="#projects">
+									Gallery
+								</a>
+								<hr class="navbar-divider">
+								<a class="navbar-item">
+								Digital Drumkt
+								</a>
+								<a class="navbar-item">
+								Faithful Quiz
+								</a>
+								<a class="navbar-item">
+								Pusheen Zodiac
+								</a>
+							</div>
+						</div>
+
+						<a class="navbar-item" href="#footer">Contact Info</a>
+
+						<span class="navbar-item">
+							<a class="button is-primary">
+								<span class="icon">
+									<i class="fas fa-arrow-circle-down"></i>
+								</span>
+								<span>My Resume</span>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+<!-- ABOUT ME SECTION -->
+	<section id="about-me" class="content">
+		<div class="hero is-fullheight has-background-primary">
+			<div id="about-div" class="hero-body has-text-centered is-marginless">
+				<figure class="image is-marginless">
+					<img id="headshot" class="is-rounded" src="img/headshotsm.jpg">
+				</figure>
+
+				<h2 class="title">	Josue Rivera  </h2>
+				<p class="subtitle">
+					Front-End Developer | Creative Professional
+				</p>
+				
+
+				<!-- <div class="container is-fluid has-background-white">
+					<p class="title">About Me</p>
+					<hr>
+					<p class="subtitle">Hello World! My name is Josue. I am a front-end developer from the Bay Area. Please hire me; I need money really, really bad. Thanks!</p>
+					<p class="subtitle">I am enthusiastic and passionate about art, music, football, and web development. After over a decade in the fast-paced environment of Corporate Security and Emergency Response, I now look to transition my soft and hard skills into the world of Web Development.
+						<br>
+						<br>
+					As a Web Developer, I enjoy the challenge and demand of creative, solution based thinking it requires in order to produce content worthy of an audience. I am passionate about building as well as deconstructing 'things' while learning throughout the whole process. 
+						<br>
+						<br>
+					I have a focus on Front-End Development but I am also familiar with many aspects of Back-End programming. 
+					I am currently utilizing these skills to build personal projects for my portfolio, with the ultimate goal of joining a team that enjoys solving difficult problems and shares in my appreciation for direct, clear, and concise communication and open-minded feedback. 
+					</p>
+						<br>
+						<br>
+				</div> -->
+
+
+				<!-- <div class="container is-fluid has-background-white">
+					<p class="title">Hard Skills</p>
+					<p class="subtitle">
+						I have a focus on Front-End Development but I am also familiar with many aspects of Back-End programming. I am proficient with HTML, CSS (SCSS/SASS), and JavaScript (ECMAScript 5 and 6) as well as Responsive Design, Cross Browser Development, Browser Dev Tools, Testing/Debugging, Command Line, Git/Version Control, APIs and RESTful Routes. 
+					</p>
+
+					<ul>In addition, I also have experience with libraries, frameworks, and databases like:
+						<li>
+							jQuery,  Vue.js, JSON
+						</li>
+						<li>
+							Bootstrap 4,  Bulma, Semantic UI
+						</li>
+						<li>
+							Node.js, NPM and various node packages not limited to but including express.js and passport.js, MySQL, MongoDB, and I am currently learning Python
+						</li>
+					</ul>
+
+					<ul>Also experienced in:
+						<li>
+							Adobe XD, Adobe CC(Illustrator, Photoshop, InDesign)
+						</li>
+						<li>
+							MS Suite, Google Suite (including Apps Script)	
+						</li>
+						<li>
+							Content Management Systems
+						</li>
+						<li>
+							JIRA - Issue and Project Tracking Software
+						</li>
+					</ul>				
+				</div> -->
+
+
+				<!-- <div class="container is-fluid has-background-white">
+					<p class="title">Soft Skills</p>
+					<p class="subtitle">A list of my soft skills bc I like people...</p>
+					<ul> Core Competencies:
+						<li>
+							Conceptual/Creative Thinking
+						</li>
+						<li>
+							Adaptable/Solution Oriented
+						</li>
+						<li>
+							Drive for Efficiency
+						</li>
+						<li>
+							Embraces Teamwork
+						</li>
+						<li>
+							Empowering of Others
+						</li>
+						<li>
+							Accountable & Approachable
+						</li>
+						<li>
+							Empathic and Open Minded
+						</li>
+						<li>
+							Willingness to Grow 
+						</li>
+						<li>
+							Self-Starter/Motivated
+						</li>
+						<li>
+							Interpersonal Awareness
+						</li>
+						<li>
+							Ability To Take Criticism • Learn From Mistakes
+						</li>
+						<li>
+							Excellent Written and Verbal Communication Skills  
+						</li>
+					</ul>
+				</div> -->
+
+
+                		                               
+
+				<div class="buttons has-addons has-text-centered">
+					<router-link class="button is-danger" to="/aboutMe">About Me</router-link class="button is-danger">
+					<router-link class="button is-danger" to="/hardSkills">Hard Skills</router-link class="button is-danger">
+					<router-link class="button is-danger" to="/softSkills">Soft Skills</router-link class="button is-danger">
+					<router-link class="button is-inverted is-danger" to="/"><i class="fas fa-lg fa-user-astronaut"></i></router-link class="button is-danger">
+				</div>
+
+				<div id="content">
+					<transition mode="out-in" name="bounce">
+						<router-view></router-view>
+					</transition>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+
+
+
+<!-- ABOUT ME -->
+<!-- SKILLS -->
+<!-- EXPERIENCE -->
+<!-- PROJECTS SECTION-->
+	<section id="projects" class="section">
+		<div class="container has-text-centered">
+			<h1 class="title has-text-primary">Project Gallery</h1>
+			<hr>
+		</div>
+		
+		<div id="projects-div" class="tile is-ancestor">
+			<div class="tile is-parent column is-half project-tile has-background-primary">
+				<article class="tile is-child notification is-primary">
+					<figure class="image">
+						<img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+					</figure>
+					<p class="title">Roast</p>
+					<p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+					<a href="">See Project Here</a>
+				</article>
+			</div>
+			<div class="tile is-parent column is-half project-tile has-background-primary">
+				<article class="tile is-child notification is-primary">
+					<figure class="image">
+						<img src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+					</figure>
+					<p class="title">Drumkit</p>
+					<p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+					<a href="">See Project Here</a>
+				</article>
+			</div>
+			<div class="tile is-parent column is-half project-tile has-background-primary">
+				<article class="tile is-child notification is-primary">
+					<figure class="image">
+						<img src="https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" alt="">
+					</figure>
+					<p class="title">Zodiac</p>
+					<p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+					<a href="">See Project Here</a>
+				</article>
+			</div>
+			<div class="tile is-parent column is-half project-tile has-background-primary">
+				<article class="tile is-child notification is-primary">
+					<figure class="image">
+						<img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" alt="">
+					</figure>
+					<p class="title">Title</p>
+					<p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+					<a href="">See Project Here</a>
+				</article>
+			</div>
+
+
+
+
+
+
+
+			<!-- <div class=" project-tile has-background-primary">
+				<img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+				<div>
+					<p class="subtitle has-text-weight-bold">Roast</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+					<a href="">See Project Here</a>
+				</div>
+			</div>
+
+
+			<div class="project-tile has-background-primary">
+				<img src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+				<p class="subtitle">Drumkit</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+				<a href="">See Project Here</a>
+			</div>
+
+
+			<div class="project-tile has-background-primary">
+				<img src="https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" alt="">
+				<p class="subtitle">Zodiac</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+				<a href="">See Project Here</a>
+			</div>
+
+
+			<div class="project-tile has-background-primary">
+				<img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" alt="">
+				<p class="subtitle">Title</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa hic explicabo vero?</p>
+				<a href="">See Project Here</a>
+			</div> -->
+			
+		</div>
+	</section>
+
+<!-- CONTACT/FOOTER SECTION -->
+	<footer id="contact">
+		<div id="email-div" class="is-pulled-left">
+			<div class="title has-text-primary">Email Me:	</div>
+			<span class="subtitle has-text-white" id="myemail">jdemarrivera@gmail.com </span>
+			<span class="tooltip">
+				<span onclick="copyToClipboard('#myemail')" onmouseout="outFunc()">
+					<i class="fas fa-copy"></i>
+					<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+				</span>
+			</span>
+		</div>
+
+
+
+		<div id="social-div" class="has-text-primary has-text-right">
+
+			<p class="subtitle has-text-white">Check me out on social media </p>
+			<div class="">
+				<a
+				href="https://www.linkedin.com/in/josuedrivera/"
+				target="_blank"
+				class="btn contact-details">
+				<i class="icon is-large fas fa-3x fab fa-linkedin"></i> 
+					<!-- LinkedIn -->
+				</a>
+
+				<a
+				href="https://github.com/josuedrivera"
+				target="_blank"
+				class="btn contact-details">
+				<i class="icon is-large fas fa-3x fab fa-github"></i>
+					<!-- GitHub -->
+				</a>
+				
+				<a id="profile-link" 
+				href="https://codepen.io/josuedrivera"
+				target="_blank"
+				class="btn contact-details">
+				<i class="icon is-large fas fa-3x fab fa-codepen"></i>
+					<!-- CodePen -->
+				</a>
+
+				<a id="profile-link" 
+				href="https://www.freecodecamp.org/josuedrivera"
+				target="_blank"
+				class="btn contact-details">
+				<i class="icon is-large fas fa-3x fab fa-free-code-camp"></i>
+					<!-- FreeCodeCamp -->
+				</a>
+
+				<a
+				href="https://www.instagram.com/swaysauce/"
+				target="_blank"
+				class="btn contact-details">
+				<i class="icon is-large fas fa-3x fab fa-instagram"></i> 
+					<!-- Instagram -->
+				</a>
+
+				<a
+				href="https://www.facebook.com/worldgoneswayzee/"
+				target="_blank"
+				class="btn contact-details">
+				<i class="icon is-large fas fa-3x fab fa-facebook-square"></i> 
+					<!-- Facebook -->
+				</a>				
+			</div>
+		</div>
+		
+		<!-- <div id="bulma">
+			<a href="https://bulma.io" class="is-pulled-right">
+				<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+			</a>
+		</div> -->
+	</footer>
+	<section id="rest">
+		<!-- <i class="far fa-copyright"></i>   -->
+		<div id="copyright">
+			<p>Josue Rivera 2020</p>
+		</div>
+		<div id="bulma">
+			<a href="https://bulma.io" class="is-pulled-right">
+				<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+			</a>
+		</div>
+	</section>
+	
+
+<!-- TEST FOOTER SECTION-->
+	<!-- <section id="footer" class="section has-background-grey-dark">
+		<div class="hero is-large has-background-primary">
+			<h2 class="title">Hello WOrld</h2>
+			<p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum?</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum, et suscipit sit in possimus ducimus nobis tenetur quia voluptatum natus dolores distinctio. Nostrum, ipsa?</p>
+		</div>
+		<footer class="footer columns has-background-grey-light is-paddingless">
+			<div class="column">
+				<figure class="image is-128x128">
+					<img id="footer-logo" class="" src="img/headshot.JPG">
+				</figure>
+	
+				<h5>contact me:
+					<strong>myeamil@email.com</strong>
+				</h5>
+				<h6>&copy;2020 
+					<strong>josuerivera.com</strong>
+				</h6>
+			</div>
+	
+			<div class="column has-text-primary is-pulled-right">
+				<div class="socials is-pulled-right">
+					<i class="icon is-large fas fa-3x fab fa-github"></i>
+					<i class="icon is-large fas fa-3x fab fa-linkedin"></i>
+					<i class="icon is-large fas fa-3x fab fa-facebook-square"></i>
+					<i class="icon is-large fas fa-3x fab fa-instagram"></i>
+				</div>
+			</div>
+	
+			<div class="sponsors column">
+				<a href="https://bulma.io" class="is-pulled-right">
+					<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+				</a>
+			</div> 
+			<div class="column is-full has-background-warning">
+				<p>select a window to expand</p>
+			</div>		
+		</footer>
+		<div class="has-background-black is-paddingless">
+			<div class="content">
+				<i class="fab fa-html5"></i>
+				<i class="fab fa-css3-alt"></i>
+	
+				<i class="fab fa-js-square"></i>
+				<i class="fab fa-js"></i>
+				<i class="fab fa-node"></i>
+				<i class="fab fa-node-js"></i>
+				<i class="fab fa-jsfiddle"></i>
+				
+				<i class="fas fa-terminal"></i>
+				<i class="fab fa-slack-hash"></i>
+				<i class="fas fa-code"></i>
+				<i class="fas fa-chevron-left"></i>
+				<i class="fas fa-chevron-right"></i>
+				<i class="fas fa-angle-left"></i>
+				<i class="fas fa-angle-right"></i>
+				<i class="fas fa-slash"></i>
+				https://fontawesome.com/icons/slash?style=solid
+				<i class="fas fa-mobile"></i>
+	
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-github"></i>
+				<i class="fab fa-linkedin"></i>
+	
+				<i class="fas fa-hat-wizard"></i>
+				<i class="fab fa-grav"></i>
+				<i class="fas fa-pizza-slice"></i>
+				<i class="fas fa-cat"></i>
+				<i class="fas fa-bug"></i>
+				<i class="fas fa-hands-helping"></i>
+				<i class="fas fa-star-of-life"></i>
+				<i class="fab fa-diaspora"></i>
+				<i class="fas fa-asterisk"></i>
+				<i class="fas fa-comments-dollar"></i>
+				<i class="fas fa-paint-roller"></i>
+				<i class="fas fa-palette"></i>
+				<i class="fas fa-paint-brush"></i>
+				<i class="fas fa-fill-drip"></i>
+				<i class="fas fa-crop"></i>
+
+				<i class="fas fa-cat"></i>
+			</div>
+		</div>
+	</section>  -->
+
+
+
+	  
+<!-- ... -->
+
+<!-- SCRIPTS -->
+	<!-- FontAwesome for Bulma -->
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<!-- jQuery slim 3.3.1 script -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- jQuery Popper scritp -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+	<!-- Bootstrap script -->
+		<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+	<!-- Vue JS CDN script -->
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Vue Router CDN script -->
+		<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+	<!-- custom JS script -->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
